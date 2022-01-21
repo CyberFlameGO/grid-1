@@ -5,7 +5,6 @@ import template from './gr-image-metadata.html';
 
 import '../../image/service';
 import '../../edits/service';
-import '../gr-description-warning/gr-description-warning';
 import { editOptions, overwrite } from '../../util/constants/editOptions';
 import '../../util/storage';
 import '../../services/image-accessor';
