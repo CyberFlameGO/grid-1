@@ -5,3 +5,8 @@
 .image-info--editor__input-preview {
   border: 1px solid #ffbc01;
 }
+.image-info__dateTaken form input {
+     padding-right: 5px;
+     letter-spacing: -1px;
+     margin-bottom: 3px;
+}
