@@ -126,6 +126,9 @@ query.controller('SearchQueryCtrl', [
 
     // Init and apply date-related changes in $stateParams to ctrl.dateFilter
     $scope.$watchCollection(() => $stateParams, () => {
+        if ($stateParams.uploadedBy) {
+            ctrl.uploadedBy = $stateParams.uploadedBy;
+        }
         switch ($stateParams.dateField) {
         case 'taken':
             ctrl.dateFilter.since = $stateParams.takenSince;
